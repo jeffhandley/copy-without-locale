@@ -1,0 +1,20 @@
+{
+    "description": "Copy the current page's URL to the clipboard, but remove locale segments.",
+    "category": "Developer Tools",
+    "language": "English (United States)",
+    "storeIcon": "source/images/icon-128-enabled.png",
+    "homepageUrl": "https://github.com/jeffhandley/copy-without-locale",
+    "supportUrl": "https://github.com/jeffhandley/copy-without-locale/issues",
+    "matureContent": false,
+    "singlePurposeDescription": "Copy page URLs while removing locale segments from the path",
+    "permissionJustifications": {
+        "clipboardWrite": "The extension's purpose is to copy links to the clipboard.",
+        "scripting": "Inject dynamic content into the page, which is needed to interact with the clipboard APIs",
+        "remoteCode": false
+    },
+    "certifications": [
+        "I do not sell or transfer user data...",
+        "I do not use or transfer user data for purposes...",
+        "I do not use or transfer user data to determine..."
+    ]
+}
