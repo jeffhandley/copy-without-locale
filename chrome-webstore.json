@@ -8,8 +8,10 @@
     "matureContent": false,
     "singlePurposeDescription": "Copy page URLs while removing locale segments from the path",
     "permissionJustifications": {
-        "clipboardWrite": "The extension's purpose is to copy links to the clipboard.",
-        "scripting": "Inject dynamic content into the page, which is needed to interact with the clipboard APIs",
+        "activeTab": "Ability to check the active tab's URL for locale segments and enable the extension",
+        "clipboardWrite": "The extension's purpose is to copy links to the clipboard",
+        "scripting": "Execute code to invoke the clipboard APIs",
+        "hostPermission": "Used to load content into the page for invoking clipboard APIs",
         "remoteCode": false
     },
     "certifications": [
